@@ -33,7 +33,7 @@ def t_combine_list_to_df(reply_info_list: list[list]) -> pd.DataFrame:
     )
 
 def l_df_to_csv(df: pd.DataFrame) -> None:
-    df.to_csv("ptt.csv" , index = 0)
+    df.to_csv("/workspaces/demo-devcontainer/src/pandas_practice/ptt.csv" , index = 0)
 
 if __name__ == '__main__':
     # Get paths of all text files
